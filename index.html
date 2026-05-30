@@ -130,7 +130,7 @@
         <button class="dropbtn" id="branchDropbtn">Папка: tests</button>
     </div>
     <div class="dropdown">
-        <button class="dropbtn" id="fileDropbtn">Выберите тестовый файл ▼</button>
+    <button class="dropbtn" id="fileDropbtn">Выберите файл ▼</button>
         <div class="dropdown-content" id="fileDropdownContent">
             <a href="#" id="localUploadLink">📁 Загрузить с устройства</a>
         </div>
@@ -301,12 +301,13 @@
             localOpt.addEventListener('click', (e) => { e.preventDefault(); fileInput.click(); updateFileDropdownText('Загрузить с устройства'); });
             fileDropdownContent.appendChild(localOpt);
             files.forEach(file => {
-                if (file.type === 'file' && file.name.endsWith('.json')) {
+                if (file.type === 'file') {
                     const link = document.createElement('a');
                     link.href = '#';
                     link.textContent = file.name;
                     link.addEventListener('click', (e) => {
                         e.preventDefault();
+                        // пытаемся загрузить файл как JSON; если не JSON, покажем ошибку в консоли
                         loadQuestionsFromGitHub(file.download_url);
                         updateFileDropdownText(file.name);
                     });

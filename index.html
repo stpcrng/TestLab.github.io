@@ -125,10 +125,9 @@
 <div class="container">
     <button class="theme-toggle">🌓 Тема</button>
 
-    <!-- Выбор группы / ветки -->
+    <!-- Папка с тестами (фиксированная) -->
     <div class="dropdown">
-        <button class="dropbtn" id="branchDropbtn">Загрузка групп...</button>
-        <div class="dropdown-content" id="branchDropdownContent"></div>
+        <button class="dropbtn" id="branchDropbtn">Папка: tests</button>
     </div>
     <div class="dropdown">
         <button class="dropbtn" id="fileDropbtn">Выберите тестовый файл ▼</button>
@@ -223,7 +222,7 @@
     let currentPoints = 0;
     let currentStreak = 0;
     let quickReviewOffset = 0;
-    let currentBranch = localStorage.getItem('selectedBranch') || 'tests-branch';
+    let currentBranch = localStorage.getItem('selectedBranch') || 'main';
 
     // DOM элементы
     const fileInput = document.getElementById('fileInput');
@@ -668,20 +667,9 @@
     function loadAppState() { const saved = localStorage.getItem('testAppState'); if (saved) { try { const s = JSON.parse(saved); if (s.version===STATE_VERSION && (Date.now()-s.timestamp)<SAVE_EXPIRY) { questions = s.questions; originalQuestions = s.originalQuestions; currentQuestionIndex = s.currentQuestionIndex; startTime = s.startTime ? new Date(s.startTime) : null; answered = s.answered; incorrectQuestions = s.incorrectQuestions; incorrectAnswerCount = s.incorrectAnswerCount; isReviewMode = s.isReviewMode; totalQuestionsCount = s.totalQuestionsCount; testFinished = s.testFinished; lastTimeTaken = s.lastTimeTaken; lastIncorrectCount = s.lastIncorrectCount; currentPoints = s.currentPoints; if (testFinished) showResult(lastTimeTaken, lastIncorrectCount); else if (quickReviewModeBtn.classList.contains('active')) showQuickReviewMode(); else showQuestion(); populateQuestionSelect(); } else restartTest(); } catch(e) { restartTest(); } } else restartTest(); }
 
     /********************** ЗАГРУЗКА ВЕТОК GITHUB **********************/
-    async function loadBranchesFromGitHub() {
-        try {
-            const resp = await fetch(`https://api.github.com/repos/FORBIX7/lab02-/branches`);
-            if (!resp.ok) throw new Error();
-            const branches = await resp.json();
-            const dropdown = document.getElementById('branchDropdownContent');
-            dropdown.innerHTML = '';
-            branches.filter(b => b.name !== 'main').forEach(b => { const a = document.createElement('a'); a.href='#'; a.textContent=b.name; a.onclick=(e)=>{ e.preventDefault(); currentBranch=b.name; localStorage.setItem('selectedBranch',currentBranch); document.getElementById('branchDropbtn').textContent = `Группа: ${currentBranch} ▼`; loadFilesFromGitHub(); }; dropdown.appendChild(a); });
-            document.getElementById('branchDropbtn').textContent = `Группа: ${currentBranch} ▼`;
-        } catch(e) { console.error(e); }
-    }
 
     /********************** СТАРТ **********************/
-    document.addEventListener('DOMContentLoaded', () => { loadTheme(); loadBranchesFromGitHub(); loadFilesFromGitHub(); loadAppState(); });
+    document.addEventListener('DOMContentLoaded', () => { loadTheme(); loadFilesFromGitHub(); loadAppState(); });
     window.addEventListener('beforeunload', saveAppState);
 </script>
 </body>

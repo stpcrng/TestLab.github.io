@@ -289,17 +289,55 @@
         const defaultRepo = 'stpcrng/TestLab.github.io';
         const stored = localStorage.getItem('selectedRepo') || defaultRepo;
         const [repoOwner, repoName] = stored.split('/');
+        // Первый приоритет — относительный индекс на том же сайте (работает с GitHub Pages и локально при хостинге)
+        const localIndex = `tests/_index.json`;
+        fileDropdownContent.innerHTML = '';
+        const localOpt = document.createElement('a');
+        localOpt.href = '#';
+        localOpt.textContent = '📂 Загрузить с устройства';
+        localOpt.addEventListener('click', (e) => { e.preventDefault(); fileInput.click(); updateFileDropdownText('Загрузить с устройства'); });
+        fileDropdownContent.appendChild(localOpt);
+        try {
+            const idxResp = await fetch(localIndex);
+            if (idxResp.ok) {
+                const entries = await idxResp.json();
+                entries.forEach(file => {
+                    const link = document.createElement('a');
+                    link.href = '#';
+                    link.textContent = file.name;
+                    // при хостинге на GitHub Pages файл доступен по относительному пути tests/<name>
+                    const fileUrl = `tests/${encodeURIComponent(file.name)}`;
+                    link.addEventListener('click', (e) => { e.preventDefault(); loadQuestionsFromGitHub(fileUrl); updateFileDropdownText(file.name); });
+                    fileDropdownContent.appendChild(link);
+                });
+                return;
+            }
+        } catch(e) { console.warn('Local index fetch failed', e); }
+
+        // Второй приоритет — raw.githubusercontent (работает без API-ключей)
+        const indexUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/${currentBranch}/tests/_index.json`;
+        try {
+            const idxResp2 = await fetch(indexUrl);
+            if (idxResp2.ok) {
+                const entries = await idxResp2.json();
+                entries.forEach(file => {
+                    const link = document.createElement('a');
+                    link.href = '#';
+                    link.textContent = file.name;
+                    const rawUrl = file.raw_url || file.download_url || `https://raw.githubusercontent.com/${repoOwner}/${repoName}/${currentBranch}/tests/${encodeURIComponent(file.name)}`;
+                    link.addEventListener('click', (e) => { e.preventDefault(); loadQuestionsFromGitHub(rawUrl); updateFileDropdownText(file.name); });
+                    fileDropdownContent.appendChild(link);
+                });
+                return;
+            }
+        } catch(e){ console.warn('raw.githubusercontent index failed', e); }
+
+        // Финальный фоллбек: GitHub API (могут быть ограничения по rate limit)
         const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/tests?ref=${currentBranch}`;
         try {
             const response = await fetch(apiUrl);
             if (!response.ok) throw new Error();
             const files = await response.json();
-            fileDropdownContent.innerHTML = '';
-            const localOpt = document.createElement('a');
-            localOpt.href = '#';
-            localOpt.textContent = '📂 Загрузить с устройства';
-            localOpt.addEventListener('click', (e) => { e.preventDefault(); fileInput.click(); updateFileDropdownText('Загрузить с устройства'); });
-            fileDropdownContent.appendChild(localOpt);
             files.forEach(file => {
                 if (file.type === 'file') {
                     const link = document.createElement('a');
@@ -307,7 +345,6 @@
                     link.textContent = file.name;
                     link.addEventListener('click', (e) => {
                         e.preventDefault();
-                        // пытаемся загрузить файл как JSON; если не JSON, покажем ошибку в консоли
                         loadQuestionsFromGitHub(file.download_url);
                         updateFileDropdownText(file.name);
                     });

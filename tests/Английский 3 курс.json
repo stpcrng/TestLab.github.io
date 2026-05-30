@@ -1,0 +1,2882 @@
+[
+  {
+    "question": "Вопрос 1. A very fast computer that runs powerful work programs.",
+    "choices": [
+      "A) Laptop",
+      "B) Desktop computer",
+      "C) Supercomputer",
+      "D) Workstation"
+    ],
+    "correctAnswers": [
+      "D) Workstation"
+    ]
+  },
+  {
+    "question": "Вопрос 2. A large computer that is built to process large amounts of information at a higher speed than other computers can handle.",
+    "choices": [
+      "A) Laptop",
+      "B) Supercomputer",
+      "C) Workstation",
+      "D) Desktop computer"
+    ],
+    "correctAnswers": [
+      "B) Supercomputer"
+    ]
+  },
+  {
+    "question": "Вопрос 3. A computer that is small enough for you to carry around and use anywhere.",
+    "choices": [
+      "A) Desktop computer",
+      "B) Supercomputer",
+      "C) Workstation",
+      "D) Laptop"
+    ],
+    "correctAnswers": [
+      "D) Laptop"
+    ]
+  },
+  {
+    "question": "Вопрос 4. A computer that is small enough to use at a desk, but too big to carry around.",
+    "choices": [
+      "A) Desktop computer",
+      "B) Laptop",
+      "C) Supercomputer",
+      "D) Workstation"
+    ],
+    "correctAnswers": [
+      "A) Desktop computer"
+    ]
+  },
+  {
+    "question": "Вопрос 5. Employees _________ laptops when they work outside of the office.",
+    "choices": [
+      "A) usually uses",
+      "B) usually using",
+      "C) usually use",
+      "D) use usually"
+    ],
+    "correctAnswers": [
+      "C) usually use"
+    ]
+  },
+  {
+    "question": "Вопрос 6. A cell phone is a device that ________ and ________ calls.",
+    "choices": [
+      "A) make / receive",
+      "B) makes / receive",
+      "C) makes / receives",
+      "D) make / receives"
+    ],
+    "correctAnswers": [
+      "C) makes / receives"
+    ]
+  },
+  {
+    "question": "Вопрос 7. Diplomats ________ English in their work as a rule.",
+    "choices": [
+      "A) use",
+      "B) uses",
+      "C) are using",
+      "D) are use"
+    ],
+    "correctAnswers": [
+      "A) use"
+    ]
+  },
+  {
+    "question": "Вопрос 8. Professor Higgins _________ his reports in that hall.",
+    "choices": [
+      "A) usually make",
+      "B) usually makes",
+      "C) makes usually",
+      "D) make usually"
+    ],
+    "correctAnswers": [
+      "B) usually makes"
+    ]
+  },
+  {
+    "question": "Вопрос 9. Yesterday Jack _______ on some powerful programs.",
+    "choices": [
+      "A) had worked",
+      "B) works",
+      "C) will work",
+      "D) worked"
+    ],
+    "correctAnswers": [
+      "D) worked"
+    ]
+  },
+  {
+    "question": "Вопрос 10. Last week Mary ______ valuable software.",
+    "choices": [
+      "A) created",
+      "B) creates",
+      "C) create",
+      "D) will create"
+    ],
+    "correctAnswers": [
+      "A) created"
+    ]
+  },
+  {
+    "question": "Вопрос 11. They _______ the abacus more than 2000 years ago.",
+    "choices": [
+      "A) invent",
+      "B) will invent",
+      "C) invented",
+      "D) invents"
+    ],
+    "correctAnswers": [
+      "C) invented"
+    ]
+  },
+  {
+    "question": "Вопрос 12. She _______ you a message by e-mail yesterday.",
+    "choices": [
+      "A) sent",
+      "B) send",
+      "C) sended",
+      "D) sends"
+    ],
+    "correctAnswers": [
+      "A) sent"
+    ]
+  },
+  {
+    "question": "Вопрос 13. The company _________ a mainframe next month.",
+    "choices": [
+      "A) has",
+      "B) have",
+      "C) will have",
+      "D) had"
+    ],
+    "correctAnswers": [
+      "C) will have"
+    ]
+  },
+  {
+    "question": "Вопрос 14. I don’t think the exam _______ very difficult.",
+    "choices": [
+      "A) will be",
+      "B) will",
+      "C) is",
+      "D) was"
+    ],
+    "correctAnswers": [
+      "A) will be"
+    ]
+  },
+  {
+    "question": "Вопрос 15. The students ________ that problem at the next meeting.",
+    "choices": [
+      "A) discuss",
+      "B) discussed",
+      "C) discussing",
+      "D) will discuss"
+    ],
+    "correctAnswers": [
+      "D) will discuss"
+    ]
+  },
+  {
+    "question": "Вопрос 16. They ________ a new computer in a week.",
+    "choices": [
+      "A) buy",
+      "B) will buy",
+      "C) bought",
+      "D) buys"
+    ],
+    "correctAnswers": [
+      "B) will buy"
+    ]
+  },
+  {
+    "question": "Вопрос 17. Scientists ________ speeches at international conferences.",
+    "choices": [
+      "A) often makes",
+      "B) make often",
+      "C) makes often",
+      "D) often make"
+    ],
+    "correctAnswers": [
+      "D) often make"
+    ]
+  },
+  {
+    "question": "Вопрос 18. I ________ many mistakes in my control paper the day before yesterday.",
+    "choices": [
+      "A) don’t make",
+      "B) won’t make",
+      "C) didn’t make",
+      "D) wasn’t make"
+    ],
+    "correctAnswers": [
+      "C) didn’t make"
+    ]
+  },
+  {
+    "question": "Вопрос 19. ______ worry, everything ______ OK.",
+    "choices": [
+      "A) Not, will be",
+      "B) Don’t, will be",
+      "C) Don’t, will",
+      "D) Not, will"
+    ],
+    "correctAnswers": [
+      "B) Don’t, will be"
+    ]
+  },
+  {
+    "question": "Вопрос 20. Computer operators _______ instructions in English as a rule.",
+    "choices": [
+      "A) read",
+      "B) reads",
+      "C) are read",
+      "D) will read"
+    ],
+    "correctAnswers": [
+      "A) read"
+    ]
+  },
+  {
+    "question": "Вопрос 21. Extra circuit boards that are used to increase the functions of a computer.",
+    "choices": [
+      "A) heat sink",
+      "B) expansion cards",
+      "C) power supply",
+      "D) motherboard"
+    ],
+    "correctAnswers": [
+      "B) expansion cards"
+    ]
+  },
+  {
+    "question": "Вопрос 22. A firm slotted board onto which computer circuitry is attached.",
+    "choices": [
+      "A) motherboard",
+      "B) expansion cards",
+      "C) power supply",
+      "D) heat sink"
+    ],
+    "correctAnswers": [
+      "A) motherboard"
+    ]
+  },
+  {
+    "question": "Вопрос 23. It delivers electricity to all parts of a computer.",
+    "choices": [
+      "A) motherboard",
+      "B) expansion cards",
+      "C) power supply",
+      "D) heat sink"
+    ],
+    "correctAnswers": [
+      "C) power supply"
+    ]
+  },
+  {
+    "question": "Вопрос 24. It transfers heat away from nearby components of a computer.",
+    "choices": [
+      "A) power supply",
+      "B) motherboard",
+      "C) expansion cards",
+      "D) heat sink"
+    ],
+    "correctAnswers": [
+      "D) heat sink"
+    ]
+  },
+  {
+    "question": "Вопрос 25. The computer ___________ at the moment.",
+    "choices": [
+      "A) is functioning",
+      "B) function",
+      "C) are functioning",
+      "D) functions"
+    ],
+    "correctAnswers": [
+      "A) is functioning"
+    ]
+  },
+  {
+    "question": "Вопрос 26. Several of my colleagues __________ at home this week.",
+    "choices": [
+      "A) is working",
+      "B) are working",
+      "C) works",
+      "D) work"
+    ],
+    "correctAnswers": [
+      "B) are working"
+    ]
+  },
+  {
+    "question": "Вопрос 27. How _________ on?",
+    "choices": [
+      "A) are you getting",
+      "B) you are getting",
+      "C) you getting",
+      "D) do you get"
+    ],
+    "correctAnswers": [
+      "A) are you getting"
+    ]
+  },
+  {
+    "question": "Вопрос 28. It’s a fine day. It ________.",
+    "choices": [
+      "A) doesn’t rain",
+      "B) doesn’t raining",
+      "C) isn’t raining",
+      "D) isn’t rain"
+    ],
+    "correctAnswers": [
+      "C) isn’t raining"
+    ]
+  },
+  {
+    "question": "Вопрос 29. When I came into the office, the employees _________ data.",
+    "choices": [
+      "A) are encoding",
+      "B) were encoding",
+      "C) was encoding",
+      "D) encode"
+    ],
+    "correctAnswers": [
+      "B) were encoding"
+    ]
+  },
+  {
+    "question": "Вопрос 30. A software engineer _______ the program when we came in.",
+    "choices": [
+      "A) was repairing",
+      "B) is repairing",
+      "C) repaired",
+      "D) were repairing"
+    ],
+    "correctAnswers": [
+      "A) was repairing"
+    ]
+  },
+  {
+    "question": "Вопрос 31. We saw an accident while we _________ for the bus.",
+    "choices": [
+      "A) was waiting",
+      "B) waited",
+      "C) were waiting",
+      "D) are waiting"
+    ],
+    "correctAnswers": [
+      "C) were waiting"
+    ]
+  },
+  {
+    "question": "Вопрос 32. The doorbell rang while I _______ a shower.",
+    "choices": [
+      "A) were having",
+      "B) had",
+      "C) am having",
+      "D) was having"
+    ],
+    "correctAnswers": [
+      "D) was having"
+    ]
+  },
+  {
+    "question": "Вопрос 33. Tomorrow at 6 p.m. the programmer __________ a new program.",
+    "choices": [
+      "A) will write",
+      "B) writes",
+      "C) will be writing",
+      "D) will writing"
+    ],
+    "correctAnswers": [
+      "C) will be writing"
+    ]
+  },
+  {
+    "question": "Вопрос 34. This time next week I ____________ email.",
+    "choices": [
+      "A) will answer",
+      "B) am answering",
+      "C) will be answer",
+      "D) will be answering"
+    ],
+    "correctAnswers": [
+      "D) will be answering"
+    ]
+  },
+  {
+    "question": "Вопрос 35. This time next week I ________ on a beach or _______ in the sea.",
+    "choices": [
+      "A) will be lying, swimming",
+      "B) will lie, swim",
+      "C) will lying, swimming",
+      "D) will be lying, swim"
+    ],
+    "correctAnswers": [
+      "A) will be lying, swimming"
+    ]
+  },
+  {
+    "question": "Вопрос 36. Do you think _________ the same job in ten years’ time?",
+    "choices": [
+      "A) are you still doing",
+      "B) will you still be doing",
+      "C) you will still be doing",
+      "D) you will still doing"
+    ],
+    "correctAnswers": [
+      "C) you will still be doing"
+    ]
+  },
+  {
+    "question": "Вопрос 37. A system for computer network to receive IP addresses and other configuration information.",
+    "choices": [
+      "A) LAN",
+      "B) WLAN",
+      "C) DHCP",
+      "D) CAT-5 cables"
+    ],
+    "correctAnswers": [
+      "C) DHCP"
+    ]
+  },
+  {
+    "question": "Вопрос 38. A network that connects a small group of computers.",
+    "choices": [
+      "A) LAN",
+      "B) WLAN",
+      "C) DHCP",
+      "D) CAT-5 cables"
+    ],
+    "correctAnswers": [
+      "A) LAN"
+    ]
+  },
+  {
+    "question": "Вопрос 39. The standard cables that connect computers to networks.",
+    "choices": [
+      "A) LAN",
+      "B) WLAN",
+      "C) DHCP",
+      "D) CAT-5 cables"
+    ],
+    "correctAnswers": [
+      "D) CAT-5 cables"
+    ]
+  },
+  {
+    "question": "Вопрос 40. A network that connects computers to a network without cables.",
+    "choices": [
+      "A) LAN",
+      "B) WLAN",
+      "C) DHCP",
+      "D) CAT-5 cables"
+    ],
+    "correctAnswers": [
+      "B) WLAN"
+    ]
+  },
+  {
+    "question": "Вопрос 41. A method that allows computer users to receive email from a server.",
+    "choices": [
+      "A) POP 3",
+      "B) domain name",
+      "C) attachment",
+      "D) SMTP"
+    ],
+    "correctAnswers": [
+      "A) POP 3"
+    ]
+  },
+  {
+    "question": "Вопрос 42. A method that allows computer users to send emails to other users.",
+    "choices": [
+      "A) POP 3",
+      "B) SMTP",
+      "C) attachment",
+      "D) domain name"
+    ],
+    "correctAnswers": [
+      "B) SMTP"
+    ]
+  },
+  {
+    "question": "Вопрос 43. A file that is sent with an email.",
+    "choices": [
+      "A) domain name",
+      "B) SMTP",
+      "C) attachment",
+      "D) POP 3"
+    ],
+    "correctAnswers": [
+      "C) attachment"
+    ]
+  },
+  {
+    "question": "Вопрос 44. A set of words and letters that identify company or address on the Internet.",
+    "choices": [
+      "A) SMTP",
+      "B) attachment",
+      "C) POP 3",
+      "D) domain name"
+    ],
+    "correctAnswers": [
+      "D) domain name"
+    ]
+  },
+  {
+    "question": "Вопрос 45. When I _________ her, she _________ the phone.",
+    "choices": [
+      "A) see / answered",
+      "B) saw / was answering",
+      "C) saw / answering",
+      "D) saw / is answering"
+    ],
+    "correctAnswers": [
+      "B) saw / was answering"
+    ]
+  },
+  {
+    "question": "Вопрос 46. He ________ coffee when she ________ him to modify the program.",
+    "choices": [
+      "A) was drinking / was asking",
+      "B) drank / was asking",
+      "C) was drinking / asked",
+      "D) drank / asked"
+    ],
+    "correctAnswers": [
+      "C) was drinking / asked"
+    ]
+  },
+  {
+    "question": "Вопрос 47. Our computer engineers and system analysts __________ software programs now.",
+    "choices": [
+      "A) are designing",
+      "B) were designing",
+      "C) design",
+      "D) designed"
+    ],
+    "correctAnswers": [
+      "A) are designing"
+    ]
+  },
+  {
+    "question": "Вопрос 48. At the moment Jack ___________ on updating the program.",
+    "choices": [
+      "A) work",
+      "B) is working",
+      "C) works",
+      "D) are working"
+    ],
+    "correctAnswers": [
+      "B) is working"
+    ]
+  },
+  {
+    "question": "Вопрос 49. The ability of one program or file to work with a different program.",
+    "choices": [
+      "A) macro",
+      "B) spell check",
+      "C) layout",
+      "D) compatibility"
+    ],
+    "correctAnswers": [
+      "D) compatibility"
+    ]
+  },
+  {
+    "question": "Вопрос 50. The way that items are arranged on a document.",
+    "choices": [
+      "A) macro",
+      "B) spell check",
+      "C) layout",
+      "D) compatibility"
+    ],
+    "correctAnswers": [
+      "C) layout"
+    ]
+  },
+  {
+    "question": "Вопрос 51. A function that reviews a document for spelling errors.",
+    "choices": [
+      "A) macro",
+      "B) spell check",
+      "C) layout",
+      "D) compatibility"
+    ],
+    "correctAnswers": [
+      "B) spell check"
+    ]
+  },
+  {
+    "question": "Вопрос 52. A short keystroke that performs a predetermined action.",
+    "choices": [
+      "A) macro",
+      "B) spell check",
+      "C) layout",
+      "D) compatibility"
+    ],
+    "correctAnswers": [
+      "A) macro"
+    ]
+  },
+  {
+    "question": "Вопрос 53. A computer language that is used to construct web sites on the Internet.",
+    "choices": [
+      "A) http",
+      "B) URL",
+      "C) HTML",
+      "D) meta tag"
+    ],
+    "correctAnswers": [
+      "C) HTML"
+    ]
+  },
+  {
+    "question": "Вопрос 54. Text that is used in the codes of a web page to provide information about the site to search engine.",
+    "choices": [
+      "A) http",
+      "B) URL",
+      "C) HTML",
+      "D) meta tag"
+    ],
+    "correctAnswers": [
+      "D) meta tag"
+    ]
+  },
+  {
+    "question": "Вопрос 55. A part of an Internet address that allows a computer to connect to the site.",
+    "choices": [
+      "A) http",
+      "B) URL",
+      "C) HTML",
+      "D) meta tag"
+    ],
+    "correctAnswers": [
+      "A) http"
+    ]
+  },
+  {
+    "question": "Вопрос 56. The text and symbols that form a web address.",
+    "choices": [
+      "A) http",
+      "B) URL",
+      "C) HTML",
+      "D) meta tag"
+    ],
+    "correctAnswers": [
+      "B) URL"
+    ]
+  },
+  {
+    "question": "Вопрос 57. He _________ a new laptop today.",
+    "choices": [
+      "A) has bought",
+      "B) have bought",
+      "C) bought",
+      "D) buys"
+    ],
+    "correctAnswers": [
+      "A) has bought"
+    ]
+  },
+  {
+    "question": "Вопрос 58. He ________ in programming since his childhood.",
+    "choices": [
+      "A) has been interesting",
+      "B) was interested",
+      "C) has been interested",
+      "D) was interesting"
+    ],
+    "correctAnswers": [
+      "C) has been interested"
+    ]
+  },
+  {
+    "question": "Вопрос 59. Alice and Mike ________ to the seaside this summer.",
+    "choices": [
+      "A) has gone",
+      "B) have gone",
+      "C) went",
+      "D) go"
+    ],
+    "correctAnswers": [
+      "B) have gone"
+    ]
+  },
+  {
+    "question": "Вопрос 60. I think it is the best vacation they ________.",
+    "choices": [
+      "A) ever took",
+      "B) ever have taken",
+      "C) have taken ever",
+      "D) have ever taken"
+    ],
+    "correctAnswers": [
+      "D) have ever taken"
+    ]
+  },
+  {
+    "question": "Вопрос 61. We weren’t hungry. We ___________ lunch.",
+    "choices": [
+      "A) just had",
+      "B) have just had",
+      "C) had had just",
+      "D) had just had"
+    ],
+    "correctAnswers": [
+      "D) had just had"
+    ]
+  },
+  {
+    "question": "Вопрос 62. They _________ their suitcases before I came.",
+    "choices": [
+      "A) have packed",
+      "B) had packed",
+      "C) packed",
+      "D) were packed"
+    ],
+    "correctAnswers": [
+      "B) had packed"
+    ]
+  },
+  {
+    "question": "Вопрос 63. I _____________ to test a new program by 6 p.m.",
+    "choices": [
+      "A) will finish",
+      "B) will be finishing",
+      "C) will have finish",
+      "D) will have finished"
+    ],
+    "correctAnswers": [
+      "D) will have finished"
+    ]
+  },
+  {
+    "question": "Вопрос 64. The film________ by the time we get to the cinema.",
+    "choices": [
+      "A) will already have started",
+      "B) will already start",
+      "C) will already have start",
+      "D) already start"
+    ],
+    "correctAnswers": [
+      "A) will already have started"
+    ]
+  },
+  {
+    "question": "Вопрос 65. Jack ________ a desktop computer last month, but now he _______ it down.",
+    "choices": [
+      "A) bought / has broken",
+      "B) has bought / broke",
+      "C) bought / broke",
+      "D) has bought / has broken"
+    ],
+    "correctAnswers": [
+      "A) bought / has broken"
+    ]
+  },
+  {
+    "question": "Вопрос 66. Shakespeare ________ many plays. My sister is a writer. She _______ many books.",
+    "choices": [
+      "A) has written / wrote",
+      "B) wrote / has written",
+      "C) wrote / wrote",
+      "D) has written / has written"
+    ],
+    "correctAnswers": [
+      "B) wrote / has written"
+    ]
+  },
+  {
+    "question": "Вопрос 67. I _________ golf. (in my life)",
+    "choices": [
+      "A) never played",
+      "B) played never",
+      "C) have never played",
+      "D) have never play"
+    ],
+    "correctAnswers": [
+      "C) have never played"
+    ]
+  },
+  {
+    "question": "Вопрос 68. I ________ golf when I was on holiday last summer.",
+    "choices": [
+      "A) don’t play",
+      "B) didn’t played",
+      "C) haven’t played",
+      "D) didn’t play"
+    ],
+    "correctAnswers": [
+      "D) didn’t play"
+    ]
+  },
+  {
+    "question": "Вопрос 69. When Sarah _______ at the party, Paul ________ home.",
+    "choices": [
+      "A) arrived / already went",
+      "B) had arrived / already went",
+      "C) arrived / had already gone",
+      "D) arrived / has already gone"
+    ],
+    "correctAnswers": [
+      "C) arrived / had already gone"
+    ]
+  },
+  {
+    "question": "Вопрос 70. When I ______ into the office, everyone ________ to work.",
+    "choices": [
+      "A) came / has already finished",
+      "B) came / had already finished",
+      "C) had come / already finished",
+      "D) came / had already finish"
+    ],
+    "correctAnswers": [
+      "B) came / had already finished"
+    ]
+  },
+  {
+    "question": "Вопрос 71. When we got home last night, we found that somebody _______ into the flat.",
+    "choices": [
+      "A) broke",
+      "B) has broken",
+      "C) had broken",
+      "D) was broken"
+    ],
+    "correctAnswers": [
+      "C) had broken"
+    ]
+  },
+  {
+    "question": "Вопрос 72. Karen didn’t want to come to the cinema with us because she _______ the film.",
+    "choices": [
+      "A) had already seen",
+      "B) already saw",
+      "C) has already seen",
+      "D) already seen"
+    ],
+    "correctAnswers": [
+      "A) had already seen"
+    ]
+  },
+  {
+    "question": "Вопрос 73. I _________ for you for the last half hour.",
+    "choices": [
+      "A) am looking",
+      "B) have looked",
+      "C) look",
+      "D) have been looking"
+    ],
+    "correctAnswers": [
+      "D) have been looking"
+    ]
+  },
+  {
+    "question": "Вопрос 74. She ________ English since her childhood.",
+    "choices": [
+      "A) is learning",
+      "B) has been learning",
+      "C) learns",
+      "D) has learning"
+    ],
+    "correctAnswers": [
+      "B) has been learning"
+    ]
+  },
+  {
+    "question": "Вопрос 75. It ________ since lunchtime.",
+    "choices": [
+      "A) is raining",
+      "B) has raining",
+      "C) has been raining",
+      "D) have been raining"
+    ],
+    "correctAnswers": [
+      "C) has been raining"
+    ]
+  },
+  {
+    "question": "Вопрос 76. My hands are very dirty. I __________ the car.",
+    "choices": [
+      "A) have been repairing",
+      "B) repair",
+      "C) have repaired",
+      "D) repaired"
+    ],
+    "correctAnswers": [
+      "A) have been repairing"
+    ]
+  },
+  {
+    "question": "Вопрос 77. The car is OK again now. I ________ it.",
+    "choices": [
+      "A) repaired",
+      "B) repair",
+      "C) have repaired",
+      "D) have been repairing"
+    ],
+    "correctAnswers": [
+      "C) have repaired"
+    ]
+  },
+  {
+    "question": "Вопрос 78. Ken gave up smoking two years ago. He _______ for 30 years.",
+    "choices": [
+      "A) had been smoking",
+      "B) smokes",
+      "C) smoked",
+      "D) has been smoking"
+    ],
+    "correctAnswers": [
+      "A) had been smoking"
+    ]
+  },
+  {
+    "question": "Вопрос 79. I was very tired when I arrived home. I ________ hard all day.",
+    "choices": [
+      "A) worked",
+      "B) work",
+      "C) had been working",
+      "D) am working"
+    ],
+    "correctAnswers": [
+      "C) had been working"
+    ]
+  },
+  {
+    "question": "Вопрос 80. How long _________ Jane?",
+    "choices": [
+      "A) do you know",
+      "B) have you known",
+      "C) have you been knowing",
+      "D) you know"
+    ],
+    "correctAnswers": [
+      "B) have you known"
+    ]
+  },
+  {
+    "question": "Вопрос 81. A large group of data organized in a computer system. It allows you to search and find information easily.",
+    "choices": [
+      "A) spreadsheet",
+      "B) worksheet",
+      "C) cell",
+      "D) database"
+    ],
+    "correctAnswers": [
+      "D) database"
+    ]
+  },
+  {
+    "question": "Вопрос 82. A computer program that organizes information and perform calculations.",
+    "choices": [
+      "A) worksheet",
+      "B) spreadsheet",
+      "C) cell",
+      "D) database"
+    ],
+    "correctAnswers": [
+      "B) spreadsheet"
+    ]
+  },
+  {
+    "question": "Вопрос 83. A single page of a spreadsheet.",
+    "choices": [
+      "A) spreadsheet",
+      "B) worksheet",
+      "C) cell",
+      "D) database"
+    ],
+    "correctAnswers": [
+      "B) worksheet"
+    ]
+  },
+  {
+    "question": "Вопрос 84. A unit of a spreadsheet that holds a piece of information.",
+    "choices": [
+      "A) spreadsheet",
+      "B) worksheet",
+      "C) database",
+      "D) cell"
+    ],
+    "correctAnswers": [
+      "D) cell"
+    ]
+  },
+  {
+    "question": "Вопрос 85. An icon that has been moved to a desktop to make opening a file or program easier.",
+    "choices": [
+      "A) pointer",
+      "B) shortcut",
+      "C) folder",
+      "D) graphical user interface"
+    ],
+    "correctAnswers": [
+      "B) shortcut"
+    ]
+  },
+  {
+    "question": "Вопрос 86. An operating system that uses icons to represent programs and files and allow users to access to them.",
+    "choices": [
+      "A) pointer",
+      "B) shortcut",
+      "C) folder",
+      "D) graphical user interface"
+    ],
+    "correctAnswers": [
+      "D) graphical user interface"
+    ]
+  },
+  {
+    "question": "Вопрос 87. It holds and organizes files and documents on a computer.",
+    "choices": [
+      "A) pointer",
+      "B) shortcut",
+      "C) folder",
+      "D) graphical user interface"
+    ],
+    "correctAnswers": [
+      "C) folder"
+    ]
+  },
+  {
+    "question": "Вопрос 88. A small arrow that lets a user choose what to do on a computer.",
+    "choices": [
+      "A) pointer",
+      "B) shortcut",
+      "C) folder",
+      "D) graphical user interface"
+    ],
+    "correctAnswers": [
+      "A) pointer"
+    ]
+  },
+  {
+    "question": "Вопрос 89. To move files, folders or icons around on a desktop.",
+    "choices": [
+      "A) drag",
+      "B) cycle",
+      "C) query",
+      "D) sort"
+    ],
+    "correctAnswers": [
+      "A) drag"
+    ]
+  },
+  {
+    "question": "Вопрос 90. A search that locates all information of a specific type in a database.",
+    "choices": [
+      "A) drag",
+      "B) cycle",
+      "C) query",
+      "D) sort"
+    ],
+    "correctAnswers": [
+      "C) query"
+    ]
+  },
+  {
+    "question": "Вопрос 91. To arrange the information in a database in a specific way.",
+    "choices": [
+      "A) drag",
+      "B) cycle",
+      "C) query",
+      "D) sort"
+    ],
+    "correctAnswers": [
+      "D) sort"
+    ]
+  },
+  {
+    "question": "Вопрос 92. To turn a device on a network off and then turn it on again or to unplug from its power source.",
+    "choices": [
+      "A) drag",
+      "B) cycle",
+      "C) query",
+      "D) sort"
+    ],
+    "correctAnswers": [
+      "B) cycle"
+    ]
+  },
+  {
+    "question": "Вопрос 93. It’s hard to see the details of this picture. Please_________ it so that it is bigger.",
+    "choices": [
+      "A) contrast",
+      "B) resize",
+      "C) graphic editing program",
+      "D) crop"
+    ],
+    "correctAnswers": [
+      "B) resize"
+    ]
+  },
+  {
+    "question": "Вопрос 94. I want to edit my pictures. I need a _____________.",
+    "choices": [
+      "A) contrast",
+      "B) resize",
+      "C) graphic editing program",
+      "D) crop"
+    ],
+    "correctAnswers": [
+      "C) graphic editing program"
+    ]
+  },
+  {
+    "question": "Вопрос 95. I don’t like the background of this picture. Let’s __________ it out.",
+    "choices": [
+      "A) contrast",
+      "B) resize",
+      "C) graphic editing program",
+      "D) crop"
+    ],
+    "correctAnswers": [
+      "D) crop"
+    ]
+  },
+  {
+    "question": "Вопрос 96. This picture is too dark. Make the __________ a little lighter.",
+    "choices": [
+      "A) contrast",
+      "B) resize",
+      "C) graphic editing program",
+      "D) crop"
+    ],
+    "correctAnswers": [
+      "A) contrast"
+    ]
+  },
+  {
+    "question": "Вопрос 97. There is no doubt that computer operators ________ have basic computer skills.",
+    "choices": [
+      "A) should",
+      "B) must",
+      "C) cannot",
+      "D) could"
+    ],
+    "correctAnswers": [
+      "B) must"
+    ]
+  },
+  {
+    "question": "Вопрос 98. A real professional ________ do without knowledge of English.",
+    "choices": [
+      "A) should",
+      "B) must",
+      "C) cannot",
+      "D) could"
+    ],
+    "correctAnswers": [
+      "C) cannot"
+    ]
+  },
+  {
+    "question": "Вопрос 99. To get a good job a person _______ speak English well.",
+    "choices": [
+      "A) should",
+      "B) must",
+      "C) cannot",
+      "D) could"
+    ],
+    "correctAnswers": [
+      "A) should"
+    ]
+  },
+  {
+    "question": "Вопрос 100. N. Lunacharsky ________ speak almost all European languages.",
+    "choices": [
+      "A) should",
+      "B) must",
+      "C) cannot",
+      "D) could"
+    ],
+    "correctAnswers": [
+      "D) could"
+    ]
+  },
+  {
+    "question": "Вопрос 101. I’m so tired. I _______ for a week.",
+    "choices": [
+      "A) could sleep",
+      "B) could have slept",
+      "C) must sleep",
+      "D) must have slept"
+    ],
+    "correctAnswers": [
+      "A) could sleep"
+    ]
+  },
+  {
+    "question": "Вопрос 102. I was so tired yesterday. I ________ for a week.",
+    "choices": [
+      "A) could sleep",
+      "B) could have slept",
+      "C) must sleep",
+      "D) must have slept"
+    ],
+    "correctAnswers": [
+      "B) could have slept"
+    ]
+  },
+  {
+    "question": "Вопрос 103. I’m feeling sick. I ________ so much chocolate.",
+    "choices": [
+      "A) shouldn’t eat",
+      "B) should eat",
+      "C) shouldn’t have eaten",
+      "D) should have eaten"
+    ],
+    "correctAnswers": [
+      "C) shouldn’t have eaten"
+    ]
+  },
+  {
+    "question": "Вопрос 104. You look tired. You _______ to bed now.",
+    "choices": [
+      "A) should go",
+      "B) should have gone",
+      "C) may go",
+      "D) can go"
+    ],
+    "correctAnswers": [
+      "A) should go"
+    ]
+  },
+  {
+    "question": "Вопрос 105. We haven’t got much time. We ______ hurry.",
+    "choices": [
+      "A) needn’t",
+      "B) may",
+      "C) mustn’t",
+      "D) must"
+    ],
+    "correctAnswers": [
+      "D) must"
+    ]
+  },
+  {
+    "question": "Вопрос 106. We’ve got plenty of time. We _______ hurry.",
+    "choices": [
+      "A) needn’t",
+      "B) must",
+      "C) need",
+      "D) mustn’t"
+    ],
+    "correctAnswers": [
+      "A) needn’t"
+    ]
+  },
+  {
+    "question": "Вопрос 107. She’s a really nice person. You _______ meet her.",
+    "choices": [
+      "A) have to",
+      "B) must",
+      "C) can",
+      "D) may"
+    ],
+    "correctAnswers": [
+      "B) must"
+    ]
+  },
+  {
+    "question": "Вопрос 108. My eyesight isn’t very good. I _______ wear glasses for reading.",
+    "choices": [
+      "A) can",
+      "B) may",
+      "C) have to",
+      "D) must"
+    ],
+    "correctAnswers": [
+      "C) have to"
+    ]
+  },
+  {
+    "question": "Вопрос 109. Shortcuts _______ on the desktop, and you can click them to get to a program quickly.",
+    "choices": [
+      "A) place",
+      "B) is placed",
+      "C) placed",
+      "D) are placed"
+    ],
+    "correctAnswers": [
+      "D) are placed"
+    ]
+  },
+  {
+    "question": "Вопрос 110. Databases and spreadsheets __________ by employees incorrectly.",
+    "choices": [
+      "A) often use",
+      "B) are often used",
+      "C) is often used",
+      "D) often uses"
+    ],
+    "correctAnswers": [
+      "B) are often used"
+    ]
+  },
+  {
+    "question": "Вопрос 111. An attachment is a file that _______ with an email.",
+    "choices": [
+      "A) is sent",
+      "B) is send",
+      "C) sends",
+      "D) sent"
+    ],
+    "correctAnswers": [
+      "A) is sent"
+    ]
+  },
+  {
+    "question": "Вопрос 112. RAM is memory that __________.",
+    "choices": [
+      "A) can be quickly access",
+      "B) can quickly access",
+      "C) can be quickly accessed",
+      "D) can quickly accessed"
+    ],
+    "correctAnswers": [
+      "C) can be quickly accessed"
+    ]
+  },
+  {
+    "question": "Вопрос 113. A printer is a device that _______ by a computer to transfer ink onto paper.",
+    "choices": [
+      "A) uses",
+      "B) are used",
+      "C) use",
+      "D) is used"
+    ],
+    "correctAnswers": [
+      "D) is used"
+    ]
+  },
+  {
+    "question": "Вопрос 114. Layout is the way that items __________ on a document.",
+    "choices": [
+      "A) arranged",
+      "B) are arranged",
+      "C) is arranged",
+      "D) arrange"
+    ],
+    "correctAnswers": [
+      "B) are arranged"
+    ]
+  },
+  {
+    "question": "Вопрос 115. The battery _________ at the moment.",
+    "choices": [
+      "A) is being charged",
+      "B) is charging",
+      "C) is being charge",
+      "D) is being charging"
+    ],
+    "correctAnswers": [
+      "A) is being charged"
+    ]
+  },
+  {
+    "question": "Вопрос 116. The oil __________ now.",
+    "choices": [
+      "A) is changing",
+      "B) is being change",
+      "C) is being changed",
+      "D) changes"
+    ],
+    "correctAnswers": [
+      "C) is being changed"
+    ]
+  },
+  {
+    "question": "Вопрос 117. The balcony door ________ before the thunderstorm broke out.",
+    "choices": [
+      "A) hadn’t closed",
+      "B) didn’t close",
+      "C) hadn’t been closed",
+      "D) hadn’t been close"
+    ],
+    "correctAnswers": [
+      "C) hadn’t been closed"
+    ]
+  },
+  {
+    "question": "Вопрос 118. They had repaired the TV set but the player _______ by the New Year.",
+    "choices": [
+      "A) hadn’t repaired",
+      "B) hadn’t been repaired",
+      "C) wasn’t repaired",
+      "D) didn’t repair"
+    ],
+    "correctAnswers": [
+      "B) hadn’t been repaired"
+    ]
+  },
+  {
+    "question": "Вопрос 119. The hardware devices attached to the computer _________ peripheral equipment.",
+    "choices": [
+      "A) is called",
+      "B) were called",
+      "C) will be called",
+      "D) are called"
+    ],
+    "correctAnswers": [
+      "D) are called"
+    ]
+  },
+  {
+    "question": "Вопрос 120. Software __________ into two categories: System Software and Application Software.",
+    "choices": [
+      "A) can be classified",
+      "B) can classify",
+      "C) can be classify",
+      "D) can classified"
+    ],
+    "correctAnswers": [
+      "A) can be classified"
+    ]
+  },
+  {
+    "question": "Вопрос 121. It is a group of disk drives that are connected and used as a single unit.",
+    "choices": [
+      "A) USB flash drive",
+      "B) zip drive",
+      "C) array",
+      "D) floppy disk"
+    ],
+    "correctAnswers": [
+      "C) array"
+    ]
+  },
+  {
+    "question": "Вопрос 122. It is a flexible magnetic storage disk encased in a square plastic shell that is used to transfer data.",
+    "choices": [
+      "A) USB flash drive",
+      "B) zip drive",
+      "C) array",
+      "D) floppy disk"
+    ],
+    "correctAnswers": [
+      "D) floppy disk"
+    ]
+  },
+  {
+    "question": "Вопрос 123. It is a portable flash memory system that uses a USB interface to connect to a computer and transfer information.",
+    "choices": [
+      "A) USB flash drive",
+      "B) zip drive",
+      "C) array",
+      "D) floppy disk"
+    ],
+    "correctAnswers": [
+      "A) USB flash drive"
+    ]
+  },
+  {
+    "question": "Вопрос 124. It is a removable disk storage system that is typically used to transfer data.",
+    "choices": [
+      "A) USB flash drive",
+      "B) zip drive",
+      "C) array",
+      "D) floppy disk"
+    ],
+    "correctAnswers": [
+      "B) zip drive"
+    ]
+  },
+  {
+    "question": "Вопрос 125. Using ________ blurs a photo’s detail.",
+    "choices": [
+      "A) digital zoom",
+      "B) optical zoom",
+      "C) upload",
+      "D) freeze"
+    ],
+    "correctAnswers": [
+      "A) digital zoom"
+    ]
+  },
+  {
+    "question": "Вопрос 126. A thicker lens will increase your camera’s _________.",
+    "choices": [
+      "A) digital zoom",
+      "B) optical zoom",
+      "C) upload",
+      "D) freeze"
+    ],
+    "correctAnswers": [
+      "B) optical zoom"
+    ]
+  },
+  {
+    "question": "Вопрос 127. Did you _________ the file yet?",
+    "choices": [
+      "A) digital zoom",
+      "B) optical zoom",
+      "C) upload",
+      "D) freeze"
+    ],
+    "correctAnswers": [
+      "C) upload"
+    ]
+  },
+  {
+    "question": "Вопрос 128. Computers _________ when too many programs are open.",
+    "choices": [
+      "A) digital zoom",
+      "B) optical zoom",
+      "C) upload",
+      "D) freeze"
+    ],
+    "correctAnswers": [
+      "D) freeze"
+    ]
+  },
+  {
+    "question": "Вопрос 129. Every day Johnny ___ to a street corner and _____ for the school bus.",
+    "choices": [
+      "A) walks…waits",
+      "B) is walking…waits",
+      "C) walks…is waiting",
+      "D) is walking…is waiting"
+    ],
+    "correctAnswers": [
+      "A) walks…waits"
+    ]
+  },
+  {
+    "question": "Вопрос 130. Ann _____ like her friend’s dog; she thinks hers is better.",
+    "choices": [
+      "A) does",
+      "B) don't",
+      "C) doesn't",
+      "D) isn't"
+    ],
+    "correctAnswers": [
+      "C) doesn't"
+    ]
+  },
+  {
+    "question": "Вопрос 131. Kate is a vegetarian, she ______ meat.",
+    "choices": [
+      "A) isn’t eating",
+      "B) hasn’t been eating",
+      "C) doesn’t eat",
+      "D) don’t eat"
+    ],
+    "correctAnswers": [
+      "C) doesn’t eat"
+    ]
+  },
+  {
+    "question": "Вопрос 132. _____ you believe that Nick will go to London next month?",
+    "choices": [
+      "A) Are",
+      "B) Do",
+      "C) Is",
+      "D) Have"
+    ],
+    "correctAnswers": [
+      "B) Do"
+    ]
+  },
+  {
+    "question": "Вопрос 133. My sister _____ some new clothes last week.",
+    "choices": [
+      "A) had bought",
+      "B) bought",
+      "C) was buying",
+      "D) has bought"
+    ],
+    "correctAnswers": [
+      "B) bought"
+    ]
+  },
+  {
+    "question": "Вопрос 134. When ______ from his business trip?",
+    "choices": [
+      "A) has he returned",
+      "B) did he return",
+      "C) was he returning",
+      "D) did he returned"
+    ],
+    "correctAnswers": [
+      "B) did he return"
+    ]
+  },
+  {
+    "question": "Вопрос 135. I _______ to Mr. Lloyds yesterday.",
+    "choices": [
+      "A) speak",
+      "B) spoke",
+      "C) speaks",
+      "D) will speak"
+    ],
+    "correctAnswers": [
+      "B) spoke"
+    ]
+  },
+  {
+    "question": "Вопрос 136. The room was empty. There _______ nobody.",
+    "choices": [
+      "A) were",
+      "B) was",
+      "C) is",
+      "D) are"
+    ],
+    "correctAnswers": [
+      "B) was"
+    ]
+  },
+  {
+    "question": "Вопрос 137. Her son ______ a computer soon. His father has given money for it.",
+    "choices": [
+      "A) have",
+      "B) will have",
+      "C) has",
+      "D) won't have"
+    ],
+    "correctAnswers": [
+      "B) will have"
+    ]
+  },
+  {
+    "question": "Вопрос 138. ______ people work better if they are given complete freedom and responsibility?",
+    "choices": [
+      "A) Will",
+      "B) Were",
+      "C) Is",
+      "D) Do"
+    ],
+    "correctAnswers": [
+      "A) Will"
+    ]
+  },
+  {
+    "question": "Вопрос 139. Who ___ Phil with his homework tomorrow?",
+    "choices": [
+      "A) will help",
+      "B) helps",
+      "C) do help",
+      "D) has help"
+    ],
+    "correctAnswers": [
+      "A) will help"
+    ]
+  },
+  {
+    "question": "Вопрос 140. Boris ______ a new CPU in two days.",
+    "choices": [
+      "A) buy",
+      "B) buys",
+      "C) will buy",
+      "D) bought"
+    ],
+    "correctAnswers": [
+      "C) will buy"
+    ]
+  },
+  {
+    "question": "Вопрос 141. The computer has a ________ of 64 bits.",
+    "choices": [
+      "A) bus speed",
+      "B) MB",
+      "C) bit size",
+      "D) RAM"
+    ],
+    "correctAnswers": [
+      "C) bit size"
+    ]
+  },
+  {
+    "question": "Вопрос 142. The computer’s CPU has a__________ of 800 MHz.",
+    "choices": [
+      "A) bus speed",
+      "B) MB",
+      "C) bit size",
+      "D) RAM"
+    ],
+    "correctAnswers": [
+      "A) bus speed"
+    ]
+  },
+  {
+    "question": "Вопрос 143. The computer comes with 900 _________ of RAM.",
+    "choices": [
+      "A) bus speed",
+      "B) MB",
+      "C) bit size",
+      "D) RAM"
+    ],
+    "correctAnswers": [
+      "B) MB"
+    ]
+  },
+  {
+    "question": "Вопрос 144. Install additional ________ into the motherboard.",
+    "choices": [
+      "A) bus speed",
+      "B) MB",
+      "C) bit size",
+      "D) RAM"
+    ],
+    "correctAnswers": [
+      "D) RAM"
+    ]
+  },
+  {
+    "question": "Вопрос 145. It is a programming language that is used to program operating systems.",
+    "choices": [
+      "A) Assembler",
+      "B) C",
+      "C) C++",
+      "D) Java"
+    ],
+    "correctAnswers": [
+      "B) C"
+    ]
+  },
+  {
+    "question": "Вопрос 146. It is a programming language that adds object-oriented programming capabilities to C.",
+    "choices": [
+      "A) Assembler",
+      "B) C",
+      "C) C++",
+      "D) Java"
+    ],
+    "correctAnswers": [
+      "C) C++"
+    ]
+  },
+  {
+    "question": "Вопрос 147. It is a low level programming language that translates between computer programs.",
+    "choices": [
+      "A) Assembler",
+      "B) C",
+      "C) C++",
+      "D) Java"
+    ],
+    "correctAnswers": [
+      "A) Assembler"
+    ]
+  },
+  {
+    "question": "Вопрос 148. It is an object-oriented programming language.",
+    "choices": [
+      "A) Assembler",
+      "B) C",
+      "C) C++",
+      "D) Java"
+    ],
+    "correctAnswers": [
+      "D) Java"
+    ]
+  },
+  {
+    "question": "Вопрос 149. This coffee shop has a(n) _________ so customers can go online.",
+    "choices": [
+      "A) antivirus software",
+      "B) ISP",
+      "C) hotspot",
+      "D) wireless router"
+    ],
+    "correctAnswers": [
+      "C) hotspot"
+    ]
+  },
+  {
+    "question": "Вопрос 150. Contact your _______ to get in touch with tech support.",
+    "choices": [
+      "A) antivirus software",
+      "B) ISP",
+      "C) hotspot",
+      "D) wireless router"
+    ],
+    "correctAnswers": [
+      "B) ISP"
+    ]
+  },
+  {
+    "question": "Вопрос 151. You need a(n) _________ to get a Wi-Fi network.",
+    "choices": [
+      "A) antivirus software",
+      "B) ISP",
+      "C) hotspot",
+      "D) wireless router"
+    ],
+    "correctAnswers": [
+      "D) wireless router"
+    ]
+  },
+  {
+    "question": "Вопрос 152. Using _________ protects your computer.",
+    "choices": [
+      "A) antivirus software",
+      "B) ISP",
+      "C) hotspot",
+      "D) wireless router"
+    ],
+    "correctAnswers": [
+      "A) antivirus software"
+    ]
+  },
+  {
+    "question": "Вопрос 153. A feature of some cell phones that lets you dial a number by voice instead of by hand.",
+    "choices": [
+      "A) voice activation",
+      "B) voicemail",
+      "C) caller ID",
+      "D) call waiting"
+    ],
+    "correctAnswers": [
+      "A) voice activation"
+    ]
+  },
+  {
+    "question": "Вопрос 154. A feature that lets you listen to or leave an electronic spoken message on a cell phone.",
+    "choices": [
+      "A) voice activation",
+      "B) voicemail",
+      "C) caller ID",
+      "D) call waiting"
+    ],
+    "correctAnswers": [
+      "B) voicemail"
+    ]
+  },
+  {
+    "question": "Вопрос 155. A feature of some cell phones that tells you the name and the number of person calling you.",
+    "choices": [
+      "A) voice activation",
+      "B) voicemail",
+      "C) caller ID",
+      "D) call waiting"
+    ],
+    "correctAnswers": [
+      "C) caller ID"
+    ]
+  },
+  {
+    "question": "Вопрос 156. A feature of some cell phones which alerts you that someone is calling while you are on the line with someone else.",
+    "choices": [
+      "A) voice activation",
+      "B) voicemail",
+      "C) caller ID",
+      "D) call waiting"
+    ],
+    "correctAnswers": [
+      "D) call waiting"
+    ]
+  },
+  {
+    "question": "Вопрос 157. Tom can ___ tennis well but he wasn't able ___ a game yesterday because he was ill.",
+    "choices": [
+      "A) play, to play",
+      "B) to play, to play",
+      "C) play, play",
+      "D) to play, play"
+    ],
+    "correctAnswers": [
+      "A) play, to play"
+    ]
+  },
+  {
+    "question": "Вопрос 158. It's high time for you __ working.",
+    "choices": [
+      "A) to start",
+      "B) start",
+      "C) starting",
+      "D) to be starting"
+    ],
+    "correctAnswers": [
+      "A) to start"
+    ]
+  },
+  {
+    "question": "Вопрос 159. He promised _______ late.",
+    "choices": [
+      "A) not be",
+      "B) not to be",
+      "C) not being",
+      "D) don’t be"
+    ],
+    "correctAnswers": [
+      "B) not to be"
+    ]
+  },
+  {
+    "question": "Вопрос 160. We asked how ______ to the station.",
+    "choices": [
+      "A) get",
+      "B) getting",
+      "C) to get",
+      "D) will get"
+    ],
+    "correctAnswers": [
+      "C) to get"
+    ]
+  },
+  {
+    "question": "Вопрос 161. We saw ______ out.",
+    "choices": [
+      "A) them go",
+      "B) them to go",
+      "C) they go",
+      "D) they to go"
+    ],
+    "correctAnswers": [
+      "A) them go"
+    ]
+  },
+  {
+    "question": "Вопрос 162. I’ve never seen ________.",
+    "choices": [
+      "A) she dances",
+      "B) she to dance",
+      "C) her to dance",
+      "D) her dance"
+    ],
+    "correctAnswers": [
+      "D) her dance"
+    ]
+  },
+  {
+    "question": "Вопрос 163. I didn’t hear ______ in.",
+    "choices": [
+      "A) he comes",
+      "B) he to come",
+      "C) him come",
+      "D) him to come"
+    ],
+    "correctAnswers": [
+      "C) him come"
+    ]
+  },
+  {
+    "question": "Вопрос 164. Do you want ______ the router?",
+    "choices": [
+      "A) me to check",
+      "B) I to check",
+      "C) me check",
+      "D) I check"
+    ],
+    "correctAnswers": [
+      "A) me to check"
+    ]
+  },
+  {
+    "question": "Вопрос 165. Известно, что он хороший программист.",
+    "choices": [
+      "A) He knows to be a good programmer.",
+      "B) He is known to be a good programmer.",
+      "C) He is a good programmer.",
+      "D) It knows he to be a good programmer."
+    ],
+    "correctAnswers": [
+      "B) He is known to be a good programmer."
+    ]
+  },
+  {
+    "question": "Вопрос 166. Говорят, что он закончил университет.",
+    "choices": [
+      "A) He has graduated from the University.",
+      "B) He says to graduate from the University.",
+      "C) He is said to have graduated from the University.",
+      "D) It says he graduated from the University."
+    ],
+    "correctAnswers": [
+      "C) He is said to have graduated from the University."
+    ]
+  },
+  {
+    "question": "Вопрос 167. Ожидалось, что гости приедут утром.",
+    "choices": [
+      "A) The guests were expected to arrive in the morning.",
+      "B) They expected to arrive in the morning.",
+      "C) The guests are expected to arrive in the morning.",
+      "D) The guests expected will arrive in the morning."
+    ],
+    "correctAnswers": [
+      "A) The guests were expected to arrive in the morning."
+    ]
+  },
+  {
+    "question": "Вопрос 168. Казалось, что погода улучшилась.",
+    "choices": [
+      "A) The weather is appeared has improved.",
+      "B) The weather appeared to improve.",
+      "C) The weather appeared to have improved.",
+      "D) The weather appeared improve."
+    ],
+    "correctAnswers": [
+      "C) The weather appeared to have improved."
+    ]
+  },
+  {
+    "question": "Вопрос 169. Stop _________! You are too loud.",
+    "choices": [
+      "A) to talk",
+      "B) talk",
+      "C) talking",
+      "D) into talking"
+    ],
+    "correctAnswers": [
+      "C) talking"
+    ]
+  },
+  {
+    "question": "Вопрос 170. I think ______ should be forbidden in the workplace.",
+    "choices": [
+      "A) to smoke",
+      "B) smoke",
+      "C) smoking",
+      "D) smoked"
+    ],
+    "correctAnswers": [
+      "C) smoking"
+    ]
+  },
+  {
+    "question": "Вопрос 171. We went _______ last holiday.",
+    "choices": [
+      "A) to hike",
+      "B) hiking",
+      "C) for hiking",
+      "D) to hiking"
+    ],
+    "correctAnswers": [
+      "B) hiking"
+    ]
+  },
+  {
+    "question": "Вопрос 172. He enjoys ________ to music.",
+    "choices": [
+      "A) to listen",
+      "B) listening",
+      "C) for listening",
+      "D) to listening"
+    ],
+    "correctAnswers": [
+      "B) listening"
+    ]
+  },
+  {
+    "question": "Вопрос 173. All of Joe’s contacts are saved on his _________.",
+    "choices": [
+      "A) barcode",
+      "B) data plan",
+      "C) email",
+      "D) PDA"
+    ],
+    "correctAnswers": [
+      "D) PDA"
+    ]
+  },
+  {
+    "question": "Вопрос 174. To track the package you must scan its _________.",
+    "choices": [
+      "A) barcode",
+      "B) data plan",
+      "C) email",
+      "D) PDA"
+    ],
+    "correctAnswers": [
+      "A) barcode"
+    ]
+  },
+  {
+    "question": "Вопрос 175. A(n) ___________ allows users to browse the Internet on smartphones.",
+    "choices": [
+      "A) barcode",
+      "B) data plan",
+      "C) email",
+      "D) PDA"
+    ],
+    "correctAnswers": [
+      "B) data plan"
+    ]
+  },
+  {
+    "question": "Вопрос 176. Please send a(n) __________ with the receipt attached.",
+    "choices": [
+      "A) barcode",
+      "B) data plan",
+      "C) email",
+      "D) PDA"
+    ],
+    "correctAnswers": [
+      "C) email"
+    ]
+  },
+  {
+    "question": "Вопрос 177. An object’s location east or west of the Prime Meridian.",
+    "choices": [
+      "A) latitude",
+      "B) longitude",
+      "C) navigation",
+      "D) waypoints"
+    ],
+    "correctAnswers": [
+      "B) longitude"
+    ]
+  },
+  {
+    "question": "Вопрос 178. An object’s location north or south of the Equator.",
+    "choices": [
+      "A) latitude",
+      "B) longitude",
+      "C) navigation",
+      "D) waypoints"
+    ],
+    "correctAnswers": [
+      "A) latitude"
+    ]
+  },
+  {
+    "question": "Вопрос 179. Locations that you can mark or record in your GPS.",
+    "choices": [
+      "A) latitude",
+      "B) longitude",
+      "C) navigation",
+      "D) waypoints"
+    ],
+    "correctAnswers": [
+      "D) waypoints"
+    ]
+  },
+  {
+    "question": "Вопрос 180. The act of creating a route to a destination.",
+    "choices": [
+      "A) latitude",
+      "B) longitude",
+      "C) navigation",
+      "D) waypoints"
+    ],
+    "correctAnswers": [
+      "C) navigation"
+    ]
+  },
+  {
+    "question": "Вопрос 181. The ________ site helps you meet other professionals.",
+    "choices": [
+      "A) feed",
+      "B) MMORPG",
+      "C) social networking",
+      "D) gaming"
+    ],
+    "correctAnswers": [
+      "C) social networking"
+    ]
+  },
+  {
+    "question": "Вопрос 182. Sarah enjoys ________ and spends all her money on games.",
+    "choices": [
+      "A) feed",
+      "B) MMORPG",
+      "C) social networking",
+      "D) gaming"
+    ],
+    "correctAnswers": [
+      "D) gaming"
+    ]
+  },
+  {
+    "question": "Вопрос 183. Shadow of Doubt is a(n) ________ with many players.",
+    "choices": [
+      "A) feed",
+      "B) MMORPG",
+      "C) social networking",
+      "D) gaming"
+    ],
+    "correctAnswers": [
+      "B) MMORPG"
+    ]
+  },
+  {
+    "question": "Вопрос 184. I receive updates about products through a news ___________.",
+    "choices": [
+      "A) feed",
+      "B) MMORPG",
+      "C) social networking",
+      "D) gaming"
+    ],
+    "correctAnswers": [
+      "A) feed"
+    ]
+  },
+  {
+    "question": "Вопрос 185. _________ he will never agree to this plan is absolutely clear.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) who",
+      "D) whoever"
+    ],
+    "correctAnswers": [
+      "A) that"
+    ]
+  },
+  {
+    "question": "Вопрос 186. _________ is elected Prime Minister, lives at 10, Downing Street.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) who",
+      "D) whoever"
+    ],
+    "correctAnswers": [
+      "D) whoever"
+    ]
+  },
+  {
+    "question": "Вопрос 187. _________ her mother was, was the question.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) who",
+      "D) whoever"
+    ],
+    "correctAnswers": [
+      "C) who"
+    ]
+  },
+  {
+    "question": "Вопрос 188. _________ was done could not be underdone.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) who",
+      "D) whoever"
+    ],
+    "correctAnswers": [
+      "B) what"
+    ]
+  },
+  {
+    "question": "Вопрос 189. The decision is ________ we have been hoping for.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) whether",
+      "D) whatever"
+    ],
+    "correctAnswers": [
+      "B) what"
+    ]
+  },
+  {
+    "question": "Вопрос 190. But his chief trouble was _________ he didn’t know any editor or writer.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) whether",
+      "D) whatever"
+    ],
+    "correctAnswers": [
+      "A) that"
+    ]
+  },
+  {
+    "question": "Вопрос 191. Time will show _______ I’m right or wrong.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) whether",
+      "D) whatever"
+    ],
+    "correctAnswers": [
+      "C) whether"
+    ]
+  },
+  {
+    "question": "Вопрос 192. I’m always ready to listen to ________ you may say.",
+    "choices": [
+      "A) that",
+      "B) what",
+      "C) whether",
+      "D) whatever"
+    ],
+    "correctAnswers": [
+      "D) whatever"
+    ]
+  },
+  {
+    "question": "Вопрос 193. The man _______ wants to buy my house is your friend.",
+    "choices": [
+      "A) who",
+      "B) that",
+      "C) where",
+      "D) why"
+    ],
+    "correctAnswers": [
+      "A) who"
+    ]
+  },
+  {
+    "question": "Вопрос 194. The letter ________ arrived this morning was wrongly addressed.",
+    "choices": [
+      "A) who",
+      "B) that",
+      "C) where",
+      "D) why"
+    ],
+    "correctAnswers": [
+      "B) that"
+    ]
+  },
+  {
+    "question": "Вопрос 195. We visited the town ______ I was born.",
+    "choices": [
+      "a) who",
+      "b) that",
+      "c) where",
+      "d) why"
+    ],
+    "correctAnswers": [
+      "c) where"
+    ]
+  },
+  {
+    "question": "Вопрос 196. There must be a reason ________ you said that.",
+    "choices": [
+      "a) who",
+      "b) that",
+      "c) where",
+      "d) why"
+    ],
+    "correctAnswers": [
+      "d) why"
+    ]
+  },
+  {
+    "question": "Вопрос 197. I have drawn a diagram _______ my explanation will be clear.",
+    "choices": [
+      "a) so that",
+      "b) as if",
+      "c) in the way",
+      "d) as"
+    ],
+    "correctAnswers": [
+      "a) so that"
+    ]
+  },
+  {
+    "question": "Вопрос 198. She acts _______ she owns the place.",
+    "choices": [
+      "a) so that",
+      "b) as if",
+      "c) in the way",
+      "d) as"
+    ],
+    "correctAnswers": [
+      "b) as if"
+    ]
+  },
+  {
+    "question": "Вопрос 199. ______ I had no money with me, I didn’t pay him.",
+    "choices": [
+      "a) so that",
+      "b) as if",
+      "c) in the way",
+      "d) as"
+    ],
+    "correctAnswers": [
+      "d) as"
+    ]
+  },
+  {
+    "question": "Вопрос 200. They did it _______ I had never seen before.",
+    "choices": [
+      "a) so that",
+      "b) as if",
+      "c) in the way",
+      "d) as"
+    ],
+    "correctAnswers": [
+      "c) in the way"
+    ]
+  },
+  {
+    "question": "Вопрос 201. The scientific study of robots and their structure and movement.",
+    "choices": [
+      "a) robotics",
+      "b) end-effector",
+      "c) manipulator",
+      "d) actuator"
+    ],
+    "correctAnswers": [
+      "a) robotics"
+    ]
+  },
+  {
+    "question": "Вопрос 202. The hand or tool at the end of a robot’s manipulator.",
+    "choices": [
+      "a) robotics",
+      "b) end-effector",
+      "c) manipulator",
+      "d) actuator"
+    ],
+    "correctAnswers": [
+      "b) end-effector"
+    ]
+  },
+  {
+    "question": "Вопрос 203. The arm of a robot.",
+    "choices": [
+      "a) robotics",
+      "b) end-effector",
+      "c) manipulator",
+      "d) actuator"
+    ],
+    "correctAnswers": [
+      "c) manipulator"
+    ]
+  },
+  {
+    "question": "Вопрос 204. A piece of equipment that makes a robot move.",
+    "choices": [
+      "a) robotics",
+      "b) end-effector",
+      "c) manipulator",
+      "d) actuator"
+    ],
+    "correctAnswers": [
+      "d) actuator"
+    ]
+  },
+  {
+    "question": "Вопрос 205. Books or magazines produced by a publishing company.",
+    "choices": [
+      "a) PDF reader",
+      "b) offline",
+      "c) system requirements",
+      "d) publications"
+    ],
+    "correctAnswers": [
+      "d) publications"
+    ]
+  },
+  {
+    "question": "Вопрос 206. A program that opens text documents.",
+    "choices": [
+      "a) PDF reader",
+      "b) offline",
+      "c) system requirements",
+      "d) publications"
+    ],
+    "correctAnswers": [
+      "a) PDF reader"
+    ]
+  },
+  {
+    "question": "Вопрос 207. Being available for use even when not connected to the Internet.",
+    "choices": [
+      "a) PDF reader",
+      "b) offline",
+      "c) system requirements",
+      "d) publications"
+    ],
+    "correctAnswers": [
+      "b) offline"
+    ]
+  },
+  {
+    "question": "Вопрос 208. The software or hardware that is needed to run a program.",
+    "choices": [
+      "a) PDF reader",
+      "b) offline",
+      "c) system requirements",
+      "d) publications"
+    ],
+    "correctAnswers": [
+      "c) system requirements"
+    ]
+  },
+  {
+    "question": "Вопрос 209. A library server program that allows remote users to access the library’s electronic materials.",
+    "choices": [
+      "a) EZ proxy",
+      "b) VPN",
+      "c) subscription",
+      "d) remote access"
+    ],
+    "correctAnswers": [
+      "a) EZ proxy"
+    ]
+  },
+  {
+    "question": "Вопрос 210. A way to encrypt a connection using when you use remote access.",
+    "choices": [
+      "a) EZ proxy",
+      "b) VPN",
+      "c) subscription",
+      "d) remote access"
+    ],
+    "correctAnswers": [
+      "b) VPN"
+    ]
+  },
+  {
+    "question": "Вопрос 211. The agreement to use something, often requiring a fee.",
+    "choices": [
+      "a) EZ proxy",
+      "b) VPN",
+      "c) subscription",
+      "d) remote access"
+    ],
+    "correctAnswers": [
+      "c) subscription"
+    ]
+  },
+  {
+    "question": "Вопрос 212. The ability to use online library resources from outside the library.",
+    "choices": [
+      "a) EZ proxy",
+      "b) VPN",
+      "c) subscription",
+      "d) remote access"
+    ],
+    "correctAnswers": [
+      "d) remote access"
+    ]
+  },
+  {
+    "question": "Вопрос 213. The process of classifying objects by examining their visual appearance.",
+    "choices": [
+      "a) pattern recognition",
+      "b) computer vision",
+      "c) algorithm",
+      "d) consciousness"
+    ],
+    "correctAnswers": [
+      "a) pattern recognition"
+    ]
+  },
+  {
+    "question": "Вопрос 214. The field and technology of making computers that have the ability to see.",
+    "choices": [
+      "a) pattern recognition",
+      "b) computer vision",
+      "c) algorithm",
+      "d) consciousness"
+    ],
+    "correctAnswers": [
+      "b) computer vision"
+    ]
+  },
+  {
+    "question": "Вопрос 215. The state of being aware of oneself and one’s actions.",
+    "choices": [
+      "a) pattern recognition",
+      "b) computer vision",
+      "c) algorithm",
+      "d) consciousness"
+    ],
+    "correctAnswers": [
+      "d) consciousness"
+    ]
+  },
+  {
+    "question": "Вопрос 216. A rule or set of rules that provides steps to take or questions to ask in order to solve a problem.",
+    "choices": [
+      "a) pattern recognition",
+      "b) computer vision",
+      "c) algorithm",
+      "d) consciousness"
+    ],
+    "correctAnswers": [
+      "c) algorithm"
+    ]
+  },
+  {
+    "question": "Вопрос 217. If it _________ like rain, we _________at home.",
+    "choices": [
+      "a) look / will stay",
+      "b) looks / will stay",
+      "c) will look / will stay",
+      "d) will look / stay"
+    ],
+    "correctAnswers": [
+      "b) looks / will stay"
+    ]
+  },
+  {
+    "question": "Вопрос 218. If I ________ you, I __________ there myself.",
+    "choices": [
+      "a) was / will go",
+      "b) were / will go",
+      "c) were / would go",
+      "d) were / went"
+    ],
+    "correctAnswers": [
+      "c) were / would go"
+    ]
+  },
+  {
+    "question": "Вопрос 219. If it ________, I _________.",
+    "choices": [
+      "a) were not raining / could go out",
+      "b) was not raining / can go out",
+      "c) were not raining / can go out",
+      "d) is not raining / could go out"
+    ],
+    "correctAnswers": [
+      "a) were not raining / could go out"
+    ]
+  },
+  {
+    "question": "Вопрос 220. If he _________ on Friday, he ________ to go with us.",
+    "choices": [
+      "a) is working / isn’t able",
+      "b) will be working / won’t be able",
+      "c) will be working / isn’t able",
+      "d) is working / won’t be able"
+    ],
+    "correctAnswers": [
+      "d) is working / won’t be able"
+    ]
+  },
+  {
+    "question": "Вопрос 221. In case I ________ her at home, I ________ her a note.",
+    "choices": [
+      "a) won’t find / will leave",
+      "b) don’t find / will leave",
+      "c) don’t find / leave",
+      "d) won’t find / leave"
+    ],
+    "correctAnswers": [
+      "b) don’t find / will leave"
+    ]
+  },
+  {
+    "question": "Вопрос 222. If you knew him better, you __________ so.",
+    "choices": [
+      "a) won’t think",
+      "b) don’t think",
+      "c) wouldn’t think",
+      "d) aren’t think"
+    ],
+    "correctAnswers": [
+      "c) wouldn’t think"
+    ]
+  },
+  {
+    "question": "Вопрос 223. If we don’t hurry, we ______ late.",
+    "choices": [
+      "a) are",
+      "b) were",
+      "c) would be",
+      "d) will be"
+    ],
+    "correctAnswers": [
+      "d) will be"
+    ]
+  },
+  {
+    "question": "Вопрос 224. If his English were good, he __________ English books in the original.",
+    "choices": [
+      "a) reads",
+      "b) will read",
+      "c) would read",
+      "d) read"
+    ],
+    "correctAnswers": [
+      "c) would read"
+    ]
+  },
+  {
+    "question": "Вопрос 225. If it hadn’t been so hot last summer, we __________ to the South.",
+    "choices": [
+      "a) would have gone",
+      "b) would go",
+      "c) will go",
+      "d) go"
+    ],
+    "correctAnswers": [
+      "a) would have gone"
+    ]
+  },
+  {
+    "question": "Вопрос 226. If he had the money, he _______ a car.",
+    "choices": [
+      "a) will buy",
+      "b) would buy",
+      "c) would have bought",
+      "d) bought"
+    ],
+    "correctAnswers": [
+      "b) would buy"
+    ]
+  },
+  {
+    "question": "Вопрос 227. The view was wonderful. If I’d had a camera, I ____________some photographs.",
+    "choices": [
+      "a) will take",
+      "b) took",
+      "c) would take",
+      "d) would have taken"
+    ],
+    "correctAnswers": [
+      "d) would have taken"
+    ]
+  },
+  {
+    "question": "Вопрос 228. If I had seen you, I ____________ hello.",
+    "choices": [
+      "a) would have said",
+      "b) will say",
+      "c) would say",
+      "d) say"
+    ],
+    "correctAnswers": [
+      "a) would have said"
+    ]
+  },
+  {
+    "question": "Вопрос 229. Do you ever wish you ________?",
+    "choices": [
+      "a) can fly",
+      "b) could fly",
+      "c) could have fly",
+      "d) fly"
+    ],
+    "correctAnswers": [
+      "b) could fly"
+    ]
+  },
+  {
+    "question": "Вопрос 230. It’s very crowded here. I wish there __________ so many people.",
+    "choices": [
+      "a) wasn’t",
+      "b) weren’t",
+      "c) hadn’t been",
+      "d) will be"
+    ],
+    "correctAnswers": [
+      "b) weren’t"
+    ]
+  },
+  {
+    "question": "Вопрос 231. I feel sick. I wish I __________ so much cake. (I ate too much cake)",
+    "choices": [
+      "a) hadn’t eaten",
+      "b) didn’t eat",
+      "c) won’t eat",
+      "d) wouldn’t eat"
+    ],
+    "correctAnswers": [
+      "a) hadn’t eaten"
+    ]
+  },
+  {
+    "question": "Вопрос 232. Do you wish you ________ science instead of languages. (you didn’t study science)",
+    "choices": [
+      "a) studied",
+      "b) will study",
+      "c) would study",
+      "d) had studied"
+    ],
+    "correctAnswers": [
+      "d) had studied"
+    ]
+  },
+  {
+    "question": "Вопрос 233. It ________ cheaper if we _______ by bus.",
+    "choices": [
+      "a) is / will go",
+      "b) will be / go",
+      "c) is / go",
+      "d) will be / will go"
+    ],
+    "correctAnswers": [
+      "b) will be / go"
+    ]
+  },
+  {
+    "question": "Вопрос 234. If you _________ the exam you __________ a certificate.",
+    "choices": [
+      "a) pass / will get",
+      "b) will pass / will get",
+      "c) will pass / get",
+      "d) pass / get"
+    ],
+    "correctAnswers": [
+      "a) pass / will get"
+    ]
+  },
+  {
+    "question": "Вопрос 235. Jane likes living in a city. She ________ happy if she lived in the country.",
+    "choices": [
+      "a) isn’t",
+      "b) won’t be",
+      "c) wouldn’t be",
+      "d) wouldn’t have been"
+    ],
+    "correctAnswers": [
+      "c) wouldn’t be"
+    ]
+  },
+  {
+    "question": "Вопрос 236. What would you do if you _________ a lot of money?",
+    "choices": [
+      "a) win",
+      "b) won",
+      "c) would win",
+      "d) would have won"
+    ],
+    "correctAnswers": [
+      "b) won"
+    ]
+  },
+  {
+    "question": "Вопрос 237. Online banking offers _________ to monitor __________.",
+    "choices": [
+      "a) PINs / identity theft",
+      "b) account alerts / bill pay",
+      "c) electronic statements / account activity",
+      "d) site key / lockout"
+    ],
+    "correctAnswers": [
+      "c) electronic statements / account activity"
+    ]
+  },
+  {
+    "question": "Вопрос 238. Online banks have a(n) _______ and a(n) _______ to secure transactions.",
+    "choices": [
+      "a) SSL connection / site key",
+      "b) PIN, electronic statements",
+      "c) account alerts / bill pay",
+      "d) lockout / account activity"
+    ],
+    "correctAnswers": [
+      "a) SSL connection / site key"
+    ]
+  },
+  {
+    "question": "Вопрос 239. To protect members from fraud, online banks use ______ and ______.",
+    "choices": [
+      "a) site keys / account activity",
+      "b) lockouts / account alerts",
+      "c) PINs / electronic funds transfer",
+      "d) bill pay / identity theft"
+    ],
+    "correctAnswers": [
+      "b) lockouts / account alerts"
+    ]
+  },
+  {
+    "question": "Вопрос 240. Online banks protect you from ________ and __________.",
+    "choices": [
+      "a) PINs / electronic funds transfer",
+      "b) SSL connection / site key",
+      "c) lockout / bill pay",
+      "d) bank fraud / identity theft"
+    ],
+    "correctAnswers": [
+      "d) bank fraud / identity theft"
+    ]
+  }
+]

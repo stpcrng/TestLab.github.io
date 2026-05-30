@@ -223,7 +223,7 @@
     let currentPoints = 0;
     let currentStreak = 0;
     let quickReviewOffset = 0;
-    let currentBranch = localStorage.getItem('selectedBranch') || 'main';
+    let currentBranch = localStorage.getItem('selectedBranch') || 'tests-branch';
 
     // DOM элементы
     const fileInput = document.getElementById('fileInput');
@@ -286,8 +286,11 @@
 
     /********************** ЗАГРУЗКА ФАЙЛОВ / GITHUB **********************/
     async function loadFilesFromGitHub() {
-        const repoOwner = 'FORBIX7', repoName = 'lab02-';
-        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/?ref=${currentBranch}`;
+        // repo owner/name можно задать в localStorage как 'selectedRepo' в формате 'owner/repo'
+        const defaultRepo = 'stpcrng/TestLab.github.io';
+        const stored = localStorage.getItem('selectedRepo') || defaultRepo;
+        const [repoOwner, repoName] = stored.split('/');
+        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/tests?ref=${currentBranch}`;
         try {
             const response = await fetch(apiUrl);
             if (!response.ok) throw new Error();

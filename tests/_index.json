@@ -1,33 +1,5 @@
 ﻿[
     {
-        "name":  "01.04.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/01.04.json"
-    },
-    {
-        "name":  "05_02.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/05_02.json"
-    },
-    {
-        "name":  "06.01.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/06.01.json"
-    },
-    {
-        "name":  "06.02.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/06.02.json"
-    },
-    {
-        "name":  "06.03.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/06.03.json"
-    },
-    {
-        "name":  "0603tk.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/0603tk.json"
-    },
-    {
-        "name":  "komova_05_01.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova_05_01.json"
-    },
-    {
         "name":  "komov_01_03.json",
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_01_03.json"
     },
@@ -36,8 +8,36 @@
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_03_02.json"
     },
     {
-        "name":  "TeoriyaVeroyatnostey.json",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/TeoriyaVeroyatnostey.json"
+        "name":  "komov-06.02.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov-06.02.json"
+    },
+    {
+        "name":  "komova_05_01.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova_05_01.json"
+    },
+    {
+        "name":  "komova-01.04.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-01.04.json"
+    },
+    {
+        "name":  "komova-06.03.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-06.03.json"
+    },
+    {
+        "name":  "komova-0603tk.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-0603tk.json"
+    },
+    {
+        "name":  "pyatovskaya-05_02.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/pyatovskaya-05_02.json"
+    },
+    {
+        "name":  "pyatovskaya-0502-SH.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/pyatovskaya-0502-SH.json"
+    },
+    {
+        "name":  "pyatovskaya-06.01.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/pyatovskaya-06.01.json"
     },
     {
         "name":  "Английский 3 курс.json",
@@ -46,6 +46,10 @@
     {
         "name":  "История.json",
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F.json"
+    },
+    {
+        "name":  "Теория вероятностей и математической статистики.json",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%20%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%20%D0%B8%20%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8.json"
     },
     {
         "name":  "Философия.json",

@@ -3,11 +3,11 @@
     "question": "Какой пример указывает на использование специфичного шрифта для тексте страницы?",
     "choices": [
       "body { font-family: sans-serif; }",
-      "body { font-family: \"Arial\"; }",
-      "body { font-family: \"Open Sans\", Arial, sans-serif; }",
-      "body { font-family: \"Helvetica\", serif; }"
+      "body { font-family: 'Arial'; }",
+      "body { font-family: 'Open Sans', Arial, sans-serif; }",
+      "body { font-family: 'Helvetica', serif; }"
     ],
-    "correctAnswers": ["body { font-family: \"Open Sans\", Arial, sans-serif; }"]
+    "correctAnswers": ["body { font-family: 'Open Sans', Arial, sans-serif; }"]
   },
   {
     "question": "Какое из следующего свойств отвечает за оформление текста?",
@@ -205,11 +205,11 @@
   {
     "question": "Какой селектор выбирает все ссылки с атрибутом target",
     "choices": [
-      "a[target=\"blank\"]",
-      "a[target=\"_blank\"]",
-      "a[href=\"_blank\"]"
+      "a[target='blank']",
+      "a[target='_blank']",
+      "a[href='_blank']"
     ],
-    "correctAnswers": ["a[target=\"_blank\"]"]
+    "correctAnswers": ["a[target='_blank']"]
   },
   {
     "question": "Какой эффект может иметь красивый интерфейс, разработанный без учета UX?",
@@ -924,10 +924,10 @@
     "question": "Как записывается селектор дочерних элементов в CSS?",
     "choices": [
       "body h1",
-      "body  h1",
+      "body > h1",
       "body + h1"
     ],
-    "correctAnswers": ["body  h1"]
+    "correctAnswers": ["body > h1"]
   },
   {
     "question": "Какое действие следует предпринять на основе собранных данных во время тестирования?",
@@ -1189,13 +1189,13 @@
     "correctAnswers": ["Учет как функциональных, так и нефункциональных требований."]
   },
   {
-    "question": "Какой CSS-код добавляет символ \"→\" после каждой внешней ссылки?",
+    "question": "Какой CSS-код добавляет символ '→' после каждой внешней ссылки?",
     "choices": [
-      "a::after { content: \"\"; }",
-      "a[href^=\"http://\"]::after, a[href^=\"https://\"]::after { content: \" →\"; }",
-      "a::after { content: \" →\"; }"
+      "a::after { content: ''; }",
+      "a[href^='http://']::after, a[href^='https://']::after { content: ' →'; }",
+      "a::after { content: ' →'; }"
     ],
-    "correctAnswers": ["a[href^=\"http://\"]::after, a[href^=\"https://\"]::after { content: \" →\"; }"]
+    "correctAnswers": ["a[href^='http://']::after, a[href^='https://']::after { content: ' →'; }"]
   },
   {
     "question": "Какой обмен информацией подразумевается под диалогом в контексте пользовательского интерфейса?",
@@ -1234,13 +1234,13 @@
     "correctAnswers": ["Поддерживает прозрачность и лучше для изображений с текстом"]
   },
   {
-    "question": "Какой селектор выбирает все ссылки, у которых `href` начинается с \"http://\" или \"https://\"?",
+    "question": "Какой селектор выбирает все ссылки, у которых `href` начинается с 'http://' или 'https://'?",
     "choices": [
-      "a[href^=\"http://\"], a[href^=\"https://\"]",
-      "a[href*=\"http://\"]",
-      "a[href=\"$http://\"]"
+      "a[href^='http://'], a[href^='https://']",
+      "a[href*='http://']",
+      "a[href='$http://']"
     ],
-    "correctAnswers": ["a[href^=\"http://\"], a[href^=\"https://\"]"]
+    "correctAnswers": ["a[href^='http://'], a[href^='https://']"]
   },
   {
     "question": "Как обозначаются элементы списка в HTML?",
@@ -1398,11 +1398,11 @@
   {
     "question": "Какое значение атрибута `target` откроет ссылку в новой вкладке?",
     "choices": [
-      "_\"blank\"",
-      "\"_top\"",
-      "\"_self\""
+      "'_blank'",
+      "'_top'",
+      "'_self'"
     ],
-    "correctAnswers": ["_\"blank\""]
+    "correctAnswers": ["'_blank'"]
   },
   {
     "question": "Что означает структурный принцип при проектировании интерфейса?",
@@ -1663,11 +1663,11 @@
   {
     "question": "Какой атрибут указывает, что ссылка должна открываться в новой вкладке?",
     "choices": [
-      "target=\"_new\"",
-      "target=\"_blank\"",
-      "target=\"_self\""
+      "target='_new'",
+      "target='_blank'",
+      "target='_self'"
     ],
-    "correctAnswers": ["target=\"_blank\""]
+    "correctAnswers": ["target='_blank'"]
   },
   {
     "question": "Какая из следующих задач может быть выполнена с помощью интерактивного прототипа?",
@@ -2165,7 +2165,7 @@
     "choices": [
       "h1 + h2",
       "h1 h2",
-      "h1  h2"
+      "h1 > h2"
     ],
     "correctAnswers": ["h1 + h2"]
   },

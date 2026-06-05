@@ -1,11 +1,11 @@
 ﻿[
     {
         "name":  "Комов_01_03",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_01_03.json"
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_01.03.json"
     },
     {
         "name":  "Комов_03_02",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_03_02.json"
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_03.02.json"
     },
     {
         "name":  "Комов-06.02",
@@ -13,7 +13,11 @@
     },
     {
         "name":  "Комова_05_01",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova_05_01.json"
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova_05.01.json"
+    },
+    {
+        "name":  "Комова-03.01",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-03.01.json"
     },
     {
         "name":  "Комова-01.04",
@@ -25,11 +29,11 @@
     },
     {
         "name":  "Комова-06.03tk",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-0603tk.json"
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-06.03tk.json"
     },
     {
         "name":  "Пятовская-05.02",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/pyatovskaya-0502.json"
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/pyatovskaya-05.02.json"
     },
     {
         "name":  "Пятовская-06.01",

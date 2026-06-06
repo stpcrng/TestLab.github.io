@@ -339,7 +339,7 @@
             if (!response.ok) throw new Error();
             const files = await response.json();
             files.forEach(file => {
-                if (file.type === 'file') {
+                if (file.type === 'file' && file.name !== '_index.json') {
                     const link = document.createElement('a');
                     link.href = '#';
                     link.textContent = file.name;

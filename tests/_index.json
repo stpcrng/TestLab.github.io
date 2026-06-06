@@ -8,27 +8,7 @@
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_03.02.json"
     },
     {
-        "name":  "Комов-06.02",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov-06.02.json"
-    },
-    {
-        "name":  "Комова_05_01",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova_05.01.json"
-    },
-    {
         "name":  "Комова-03.01",
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-03.01.json"
-    },
-    {
-        "name":  "Комова-01.04",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-01.04.json"
-    },
-    {
-        "name":  "Комова-06.03",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-06.03.json"
-    },
-    {
-        "name":  "Комова-06.03tk",
-        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-06.03tk.json"
     }
 ]

@@ -1,6 +1,6 @@
 ﻿[
     {
-        "name":  "Комов_01_03 НЕ ГОТОВ",
+        "name":  "Комов_01_03",
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_01.03.json"
     },
     {
@@ -8,7 +8,7 @@
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komov_03.02.json"
     },
     {
-        "name":  "Комова-03.01",
+        "name":  "Комова_03_01",
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/komova-03.01.json"
     }
 ]

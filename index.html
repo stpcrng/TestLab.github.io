@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Тестирование</title>
     <style>
         /* ========== Оригинальные стили (сохранены) ========== */
@@ -12,6 +12,7 @@
             margin: 0;
             padding: 0;
             transition: background-color 0.3s ease, color 0.3s ease;
+            touch-action: manipulation;
         }
         body.dark-mode {
             background-color: #202020;
@@ -402,14 +403,16 @@
         if (questions.length === 0) { questionContainer.innerHTML = '<p>Нет вопросов.</p>'; return; }
         const q = questions[currentQuestionIndex];
         let choicesHTML = '';
-        if (q.correctAnswers.length > 1) {
-            choicesHTML = q.choices.map(choice => `<label style="display:block;"><input type="checkbox" name="answer" value="${escapeHtml(choice)}"> ${escapeHtml(choice)}</label><br>`).join('');
-        } else {
-            choicesHTML = q.choices.map(choice => `<label style="display:block;"><input type="radio" name="answer" value="${escapeHtml(choice)}"> ${escapeHtml(choice)}</label><br>`).join('');
-        }
+        const multiple = Array.isArray(q.correctAnswers) && q.correctAnswers.length > 1;
+        choicesHTML = q.choices.map((choice, i) => {
+            const escaped = escapeHtml(choice);
+            const inputType = multiple ? 'checkbox' : 'radio';
+            return `<label style="display:block;" data-choice-index="${i}"><input type="${inputType}" name="answer" value="${escaped}" data-choice-index="${i}"> <span class="choice-number">${i+1}.</span> ${escaped}</label><br>`;
+        }).join('');
         const imgHtml = q.image ? `<img src="${q.image}" alt="Изображение" style="max-width:100%; height:auto; margin-top:10px; border-radius:8px;">` : '';
+        const hint = isDesktopDevice() ? `<p class="keyboard-hint">Нажмите цифру 1-9 (0 = 10) для выбора варианта; Enter — подтвердить/перейти.</p>` : '';
         const questionHTML = `<p>${isReviewMode ? 'Работа над ошибками' : `Вопрос ${currentQuestionIndex+1} / ${questions.length}`}</p>
-                              <h4>${escapeHtml(q.question)}</h4>${choicesHTML}${imgHtml}`;
+                              <h4>${escapeHtml(q.question)}</h4>${choicesHTML}${imgHtml}${hint}`;
         questionContainer.innerHTML = questionHTML;
         if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise();
         if (!startTime) startTime = new Date();
@@ -707,6 +710,129 @@
     /********************** ЗАГРУЗКА ВЕТОК GITHUB **********************/
 
     /********************** СТАРТ **********************/
+    // Клавиатурные сокращения: улучшенная логика — верхние цифры (Digit1..Digit9, Digit0->10) выбирают варианты, Enter подтверждает/переходит дальше.
+    function isDesktopDevice() {
+        try {
+            // pointer: fine означает устройство с точным указателем (мышь)
+            const finePointer = window.matchMedia && window.matchMedia('(pointer: fine)').matches;
+            const notTouch = !('ontouchstart' in window) && !navigator.maxTouchPoints;
+            return finePointer || notTouch;
+        } catch (e) { return true; }
+    }
+
+    function isTypingInForm() {
+        const ae = document.activeElement;
+        if (!ae) return false;
+        const tag = ae.tagName;
+        // Разрешаем обработку клавиш, если фокус на варианте ответа внутри #question-container
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') {
+            if (ae.name === 'answer' || (ae.closest && ae.closest('#question-container'))) return false;
+            return true;
+        }
+        if (ae.isContentEditable) return true;
+        return false;
+    }
+
+    // Добавляем CSS для подсветки при выборе через клавиатуру
+    (function addKeyboardStyles(){
+        const s = document.createElement('style');
+        s.type = 'text/css';
+        s.textContent = `
+            .keyboard-selected{outline:2px solid #0b84ff;background:rgba(11,132,255,0.06);border-radius:6px;padding:2px 6px}
+            .keyboard-hint{font-size:13px;color:#666;margin-top:6px}
+            .choice-number{font-weight:700;margin-right:6px;color:#333}
+            .keyboard-invalid{animation: keyboard-shake 150ms}
+            @keyframes keyboard-shake{0%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}100%{transform:translateX(0)}}
+            .keyboard-toast{position:relative;display:inline-block;padding:6px 10px;background:#ffeeba;border-radius:6px;margin-top:8px;color:#856404}
+        `;
+        document.head.appendChild(s);
+    })();
+
+    function showKeyboardToast(msg, duration=1200){
+        let toast = document.getElementById('keyboard-toast');
+        if (toast) { toast.textContent = msg; toast.style.display = 'inline-block'; clearTimeout(toast._t); toast._t = setTimeout(()=>toast.style.display='none', duration); return; }
+        toast = document.createElement('div');
+        toast.id = 'keyboard-toast';
+        toast.className = 'keyboard-toast';
+        toast.textContent = msg;
+        // попытаться добавить в questionContainer, иначе в body
+        const parent = document.getElementById('question-container') || document.body;
+        parent.appendChild(toast);
+        toast._t = setTimeout(()=>{ toast.style.display='none'; }, duration);
+    }
+
+    document.addEventListener('keydown', (e) => {
+        try {
+            // Работать только на десктопе
+            if (!isDesktopDevice()) return;
+            // Не мешать вводящемуся тексту в формах/полях
+            if (isTypingInForm()) return;
+            if (e.ctrlKey || e.altKey || e.metaKey) return;
+            if (testFinished || (resultContainer && resultContainer.style.display === 'block')) return;
+
+            const code = e.code || '';
+            if (code.startsWith('Digit')) {
+                // Превратить Digit0 в 10
+                e.preventDefault();
+                let n = parseInt(code.replace('Digit',''), 10);
+                if (isNaN(n)) return;
+                if (n === 0) n = 10;
+                const idx = n - 1;
+                const inputs = Array.from(document.querySelectorAll('#question-container input[name="answer"]'));
+                if (!inputs || inputs.length === 0) return;
+                if (idx < 0 || idx >= inputs.length) {
+                    // короткий фидбэк об ошибке клавиши
+                    questionContainer.classList.add('keyboard-invalid');
+                    setTimeout(()=> questionContainer.classList.remove('keyboard-invalid'), 180);
+                    showKeyboardToast('Неверный номер варианта', 800);
+                    return;
+                }
+                // Если уже отвечено — позволить переключаться только если ответы ещё не заблокированы
+                if (answered) {
+                    // если уже показан фидбэк и inputs отключены — не менять
+                    const anyDisabled = inputs.every(i=>i.disabled);
+                    if (anyDisabled) { showKeyboardToast('Ответы зафиксированы', 900); return; }
+                }
+
+                const inp = inputs[idx];
+                if (inp.type === 'radio') {
+                    // Для радио — выбрать этот вариант (и снять выбор с других)
+                    inp.checked = true;
+                } else if (inp.type === 'checkbox') {
+                    // Для чекбоксов — переключить
+                    inp.checked = !inp.checked;
+                }
+                // визуальная подсветка метки
+                const lbl = inp.closest('label');
+                if (lbl) {
+                    document.querySelectorAll('#question-container label').forEach(l=>l.classList.remove('keyboard-selected'));
+                    lbl.classList.add('keyboard-selected');
+                    setTimeout(()=> lbl.classList.remove('keyboard-selected'), 400);
+                }
+                try { inp.focus(); } catch(e){}
+                return;
+            }
+
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                // Если уже ответили — след. вопрос
+                if (answered) { nextBtn.click(); return; }
+                // Иначе — надо убедиться, что выбран хотя бы один вариант
+                const selected = Array.from(document.querySelectorAll('#question-container input[name="answer"]:checked'));
+                if (!selected || selected.length === 0) {
+                    // короткий фидбэк и подсказка
+                    questionContainer.classList.add('keyboard-invalid');
+                    setTimeout(()=> questionContainer.classList.remove('keyboard-invalid'), 180);
+                    showKeyboardToast('Выберите вариант перед подтверждением', 1200);
+                    return;
+                }
+                // Если выбран — вызвать обработчик "Далее" чтобы показать фидбэк
+                nextBtn.click();
+                return;
+            }
+        } catch(err){ console.error('keyboard shortcuts error', err); }
+    });
+
     document.addEventListener('DOMContentLoaded', () => { loadTheme(); loadFilesFromGitHub(); loadAppState(); });
     window.addEventListener('beforeunload', saveAppState);
 </script>

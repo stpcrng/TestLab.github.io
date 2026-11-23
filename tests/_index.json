@@ -14,5 +14,9 @@
     {
         "name":  "ПОПД_ПредАТ",
         "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/ПОПД_ПредАТ.json"
+    },
+    {
+        "name":  "Комова_06.03_ПредАТ",
+        "raw_url":  "https://raw.githubusercontent.com/stpcrng/TestLab.github.io/main/tests/Комова_06.03_ПредАТ.json"
     }
 ]

@@ -310,8 +310,8 @@
                     const link = document.createElement('a');
                     link.href = '#';
                     link.textContent = file.name;
-                    // при хостинге на GitHub Pages файл доступен по относительному пути tests/<name>
-                    const fileUrl = `tests/${encodeURIComponent(file.name)}`;
+                    // name in the index omits the .json extension
+                    const fileUrl = `tests/${encodeURIComponent(file.name)}.json`;
                     link.addEventListener('click', (e) => { e.preventDefault(); loadQuestionsFromGitHub(fileUrl); updateFileDropdownText(file.name); });
                     fileDropdownContent.appendChild(link);
                 });
@@ -329,7 +329,7 @@
                     const link = document.createElement('a');
                     link.href = '#';
                     link.textContent = file.name;
-                    const rawUrl = file.raw_url || file.download_url || `https://raw.githubusercontent.com/${repoOwner}/${repoName}/${currentBranch}/tests/${encodeURIComponent(file.name)}`;
+                    const rawUrl = file.raw_url || file.download_url || `https://raw.githubusercontent.com/${repoOwner}/${repoName}/${currentBranch}/tests/${encodeURIComponent(file.name)}.json`;
                     link.addEventListener('click', (e) => { e.preventDefault(); loadQuestionsFromGitHub(rawUrl); updateFileDropdownText(file.name); });
                     fileDropdownContent.appendChild(link);
                 });

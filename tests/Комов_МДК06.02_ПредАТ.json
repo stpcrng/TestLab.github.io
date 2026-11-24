@@ -739,23 +739,23 @@
   {
     "question": "68. Что вернёт safe_filename(\"my*file?.png\")?",
     "choices": [
-      "A) \"1234567890_my_file__png\"",
-      "B) \"my*file?.png\"",
-      "C) \"myfile.png\""
+      "A) 1234567890_my_file__png",
+      "B) my*file?.png",
+      "C) myfile.png"
     ],
     "correctAnswers": [
-      "A) \"1234567890_my_file__png\""
+      "A) 1234567890_my_file__png"
     ]
   },
   {
     "question": "69. Что вернёт safe_filename(\".../../..etc\")?",
     "choices": [
-      "A) \"1234567890_____etc\"",
-      "B) \"../../etc\"",
-      "C) \"etc\""
+      "A) 1234567890_____etc",
+      "B) ../../etc",
+      "C) etc"
     ],
     "correctAnswers": [
-      "A) \"1234567890_____etc\""
+      "A) 1234567890_____etc"
     ]
   },
   {
